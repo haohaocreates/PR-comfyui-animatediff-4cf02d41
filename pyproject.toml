@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-animatediff"
+description = "AnimateDiff integration for ComfyUI, adapts from sd-webui-animatediff.\n[w/You only need to download one of [a/mm_sd_v14.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt) | [a/mm_sd_v15.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt). Put the model weights under %%ComfyUI/custom_nodes/comfyui-animatediff/models%%. DO NOT change model filename.]"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/ArtVentureX/comfyui-animatediff"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-animatediff"
+Icon = ""
